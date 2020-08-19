@@ -20,6 +20,14 @@ const config = {
   },
   framework: 'react',
   mini: {
+    // weapp: {
+    //   appOutput: false,
+    //   npm: {
+    //     dir: '../dist/common',
+    //     name: 'taro'
+    //   }
+    // },
+    // appOutput: false,
     postcss: {
       pxtransform: {
         enable: true,
@@ -59,7 +67,14 @@ const config = {
         }
       }
     }
-  }
+  },
+  // weapp: {
+  //   appOutput: false,
+  //   npm: {
+  //     dir: '../dist/common',
+  //     name: 'taro'
+  //   }
+  // },
 }
 
 module.exports = function (merge) {
